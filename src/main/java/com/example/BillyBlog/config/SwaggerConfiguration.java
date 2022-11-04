@@ -28,8 +28,8 @@ public class SwaggerConfiguration {
 
     private ApiInfo metadata () {
         return new ApiInfoBuilder()
-                .title("API Modelo")
-                .description("API Billy Blog")
+                .title("Billy Blog API")
+                .description(" - Criação da API do Blog. ")
                 .version("1.0")
                 .build();
     }
