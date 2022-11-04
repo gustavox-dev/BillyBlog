@@ -1,14 +1,12 @@
 package com.example.BillyBlog.entities;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
+@Builder
 @Table(name = "comentarios")
 @AllArgsConstructor
 @NoArgsConstructor
