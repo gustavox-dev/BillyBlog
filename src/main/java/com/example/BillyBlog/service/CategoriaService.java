@@ -40,4 +40,5 @@ public class CategoriaService {
         Categoria categoria = buscarCategoriaPorID(id);
         repo.delete(categoria);
     }
+
 }

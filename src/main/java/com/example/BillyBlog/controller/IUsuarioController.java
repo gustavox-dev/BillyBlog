@@ -16,7 +16,7 @@ public interface IUsuarioController {
     Usuario criarUsuario(@RequestParam String name);
 
     @ApiOperation("Atualiza Usuário")
-    @PostMapping(value = "/usuario/{id}")
+    @PutMapping(value = "/usuario/{id}")
     Usuario atualizarUsuario(@PathVariable Integer id, @RequestParam String nome);
 
     @ApiOperation("Busca Usuario por ID")
